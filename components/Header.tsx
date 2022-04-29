@@ -78,6 +78,8 @@ export default function Header() {
         </div>
       </div>
       <div className="relative h-full">
+        <div className="relative z-50  top-12 -right-16 min-h-[100vh]">
+
         <img
           src="Hero.png"
           loading="lazy"
@@ -85,8 +87,9 @@ export default function Header() {
           height="530"
           alt="Hero"
           about="Hero Image"
-          className="relative z-10 top-12 -right-16"
-        />
+          className=" "
+          />
+          </div>
         <div className="absolute -top-10 h-full">
           <svg
             width="1100"
