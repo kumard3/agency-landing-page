@@ -42,7 +42,7 @@ export default function Boost() {
     },
   ]
   return (
-    <div className="flex flex-col py-10 justify-center  items-center">
+    <div className="flex flex-col min-h-screen py-10 justify-center  items-center">
       <div className="max-w-xl flex flex-col py-10 justify-center  items-center">
         <h1 className="text-6xl text-center  font-jostBold ">
           Want you to Boost your Business?
@@ -80,9 +80,22 @@ export default function Boost() {
                   {n.title}
                 </h1>
                 <p className="font-jostRegular text-[#61646B] py-2">{n.text}</p>
-                <h2 className="font-jostMedium text-xl text-[#3E3FD8] ">
+                <h2 className="font-jostMedium text-xl text-[#3E3FD8] flex items-center">
                   {' '}
-                  Read More
+                  Read More{' '}
+                  <svg
+                    width="18"
+                    height="12"
+                    viewBox="0 0 18 12"
+                    fill="none"
+                    className="ml-2 mt-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18 6L8 0.226497V11.7735L18 6ZM0 7H9V5H0V7Z"
+                      fill="#3E3FD8"
+                    />
+                  </svg>
                 </h2>
               </div>
             </div>
