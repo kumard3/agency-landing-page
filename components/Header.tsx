@@ -77,8 +77,8 @@ export default function Header() {
           </button>
         </div>
       </div>
-      <div className="relative h-full">
-        <div className="relative z-50  top-12 -right-16 min-h-[100vh]">
+      <div className="relative h-full mt-10 md:mt-0">
+        <div className="relative z-50  md:top-12 -right-16  sm:min-h-[110vh]">
 
         <img
           src="Hero.png"
