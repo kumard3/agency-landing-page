@@ -3,8 +3,11 @@
 import Link from 'next/link'
 import * as React from 'react'
 import Boost from '../components/Boost'
+import Fotter from '../components/Fotter'
 import Header from '../components/Header'
 import NavComponent from '../components/NavComponent'
+import NewsLetter from '../components/NewsLetter'
+import Testemonials from '../components/Testemonials'
 
 export default function Home() {
   return (
@@ -91,6 +94,9 @@ export default function Home() {
           <img src="Recruiter.png" loading="lazy" width="650" height="650" />
         </div>
       </div>
+      <Testemonials />
+      <NewsLetter />
+      <Fotter />
     </div>
   )
 }
